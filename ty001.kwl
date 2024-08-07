@@ -1,0 +1,22 @@
+Keuwlsoft Bluetooth Electronics Panel File
+2021-05-21 11:34:06
+2
+
+*.kwl
+set_grid_size(21,9)
+add_text(16,8,large,C,左旋,245,240,245,)
+add_text(18,8,large,C,右旋,245,240,245,)
+add_text(9,7,large,L,电池电量,245,240,245,)
+add_text(6,4,large,C,左电机速度,245,240,245,)
+add_text(13,4,large,C,右电机速度,245,240,245,)
+add_button(16,7,4,<Rota_L>,<Rota_S>)
+add_button(2,8,14,<Stop>,<Stop>)
+add_button(18,7,5,<Rota_R>,<Rota_S>)
+add_button(15,4,29,<Left>,<OK>)
+add_button(18,4,29,<Right>,<OK>)
+add_switch(4,6,3,<Up>,<Down>,0,1)
+add_slider(2,3,3,0,9,0,<Speed:,>,0)
+add_gauge(7,8,4,0,100,87,U,0,100,10,5)
+add_gauge(12,1,1,0,140,67,R,-70,70,10,5)
+add_gauge(5,1,1,0,140,69,L,-70,70,10,5)
+set_panel_notes(-,,,)
